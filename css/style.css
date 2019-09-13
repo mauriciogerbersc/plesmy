@@ -1,0 +1,304 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    color: -internal-root-color; 
+}
+
+ul {
+    margin: 0;
+}
+body { 
+    color: #767676;
+    background: #fff;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:#323232;
+    font-style: normal;
+    text-transform: capitalize;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.wrap-layout {
+    width: 100%;
+    float: left;
+}
+
+.wp-main {
+    padding:20px 0;
+    background: #f7f7f7;
+}
+
+.wp-userlisting-breadcrumb {
+    float: left;
+    width: 100%;
+    line-height: 15px;
+}
+
+.wp-userlisting-breadcrumb li:first-child {
+    padding-left: 0;
+}
+
+.wp-userlisting-breadcrumb li {
+    width: auto;
+    padding: 0 12px;
+    line-height: inherit;
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.wp-userlisting-breadcrumb li span, .wp-userlisting-breadcrumb li a {
+    display: block;
+    color: #767676;
+    font-size: 13px;
+    line-height: inherit;
+}
+
+
+.wp-userlisting-breadcrumb li + li {
+    border-left: 1px solid #ddd;
+}
+
+.wp-section { padding: 80px 0; }
+
+.wp-featured {    
+     background: #fffdf3;
+    position: relative;
+    overflow: hidden;
+}
+.widget {     
+    float: left;
+    width: 100%;
+    padding: 30px;
+    margin: 0 0 30px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.wg-title {
+    margin-bottom: 30px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #ddd;
+}
+
+.wg-title h2 {
+    margin: 0;
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.wg-content {
+    float: left;
+    width: 100%;
+}
+
+.wg-content {
+   width:100%;
+   float:left;
+}
+
+.wg-form  {
+    height:180px;
+    overflow:auto;
+}
+
+.wp-list + .task-list {
+    margin: 20px 0 0;
+}
+
+.wp-list{
+    float: left;
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.wp-list:hover {
+  -webkit-box-shadow: 10px 10px 20px 0 rgba(0,0,0,0.25);
+       box-shadow: 10px 10px 20px 0 rgba(0,0,0,0.25);
+ 
+}
+.task-list {
+    background: #fffdf3;
+    position: relative;
+    overflow: hidden;
+}
+
+.wp-content { overflow: hidden }
+
+.wp-contenthead {     float: left;
+    width: auto;
+    max-width: 420px;
+}
+
+.wp-contenthead h2 {
+    margin: 0;
+    font-weight: 400;
+    margin: 0 0 16px;
+    font-size: 18px;
+    line-height: 22px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.wp-description { width:100%; float:left}
+
+.wp-description p { 
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+.wg-form fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+
+.list-group .list-group-item {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.list-group-item {
+    line-height: 1;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+
+
+.bullet-cadastro {
+    background-color: #17a2b8;
+    color:white;
+}
+
+.bullet.bullet-prefeituras {
+    background-color: #000;
+}
+
+.bullet.bullet-movimento {
+    background-color: red;
+}
+
+.bullet.bullet-processo-eletronico {
+    background-color: blue;
+}
+
+.bullet.bullet-exportacao {
+    background-color: green;
+}
+.bullet.bullet-faturas {
+    background-color: palevioletred;
+}
+
+.bullet.bullet-distribuicao{
+    background-color: burlywood;
+}
+
+.bullet-cliente {
+    background-color: #767676;
+    color:white;
+}
+
+.bullet {
+    width: 1rem;
+    height: 1rem;
+}
+
+.bullet {
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.mr-1, .mx-1 {
+    margin-right: 1rem!important;
+}
+
+.wt-featuredtag {
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-right: 40px solid transparent;
+}
+
+.wt-featured-cadastro {
+    border-top: 40px solid #17a2b8;
+}
+
+
+.wt-featured-cliente {
+    border-top:40px solid #767676;
+}
+
+.wt-featuredtag img {
+    max-width: 40px;
+    margin: -85px 4px 0;
+    border: 0;
+}
+
+.wp-filterholder {
+    float: left;
+    width: 100%;
+    margin: 0 0 30px;
+}
+
+.wp-filtertag {
+    float: left;
+    width: 100%;
+    margin: -2px 0;
+    list-style: none;
+    line-height: 29px;
+}
+
+.wp-filtertag li {
+    opacity: 1;
+    float: left;
+    width: auto;
+    margin: 2px 0;
+    padding: 0;
+    border-radius: 0;
+    line-height: inherit;
+    list-style-type: none;
+}
+
+.wp-filtertag li.wp-filtertagclear {
+    margin-right: 20px;
+}
+
+.wp-filtertag li + li {
+    margin-left: 5px;
+}
+
+.wp-filtertag li a {
+    display: block;
+    font-size: 12px;
+    padding: 0 13px;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+}
+
+.wp-filtertag li i {
+    margin-top: 7px;
+    margin-left: 3px;
+    font-size: 14px;
+}
