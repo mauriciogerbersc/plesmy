@@ -291,7 +291,7 @@
                     output += '<li>';
                     output += '<div class="list-item py-4">';
                     output += '    <div class="vx-row">';
-                    output += '        <h6 class="todo-title">' + val.title + '</h6>';
+                    output += '       <h6 class="todo-title">' + val.title + '</h6>';
                     output += '       <div class="tag">';
                     output += '            <div class="h-2 w-2 rounded-full mr-1 ' + val.classe + '"></div>';
                     output += val.label;
@@ -307,8 +307,8 @@
                     output += '    </div>';
                     output += '</div>';
                     output += '<div class="footer">';
-                    output += '        <span>' + val.last_update + '</span>';
-                    output += '    </div>';
+                    output += '   <span><strong>Última atualização:</strong> ' + val.last_update + '</span>';
+                    output += '</div>';    
                     output += '</li>';
                     count++;
                 }
