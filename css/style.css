@@ -364,7 +364,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 
-#todo .list-item {border-top: 1px solid #dae1e1; transition: background-color .2s,transform .2s,-webkit-transform .2s; padding-left: 1rem !important;
+#todo .list-item { transition: background-color .2s,transform .2s,-webkit-transform .2s; padding-left: 1rem !important;
     padding-right: 1rem !important;  width:100%}
 
 #todo .vx-row { display: flex;
@@ -389,7 +389,8 @@ h6.todo-title { margin-top:5px;}
         min-height: 28px;
         padding: 0 10px;
         color: rgba(0,0,0,.7);
-        position: relative; margin-left: 5px; }
+        position: relative; margin-left: 5px; 
+    }
 
      .w-2{   width: .5rem!important; }
      .mr-1 {     margin-right: .25rem!important;
@@ -402,10 +403,12 @@ h6.todo-title { margin-top:5px;}
         padding-top: 0.5rem!important;
         padding-bottom: 0.5rem!important;
     }
-     
+
+    #todo li { border-bottom: 1px solid #dae1e7}
     #todo li:nth-child(1n) { background: #fff; }
-    #todo li:nth-child(2n) { background: #fcfcfc; }
+    #todo li:nth-child(2n) { background: #fafafa;}
 
+    .wp-userlisting-breadcrumb li {background: none !important; border-bottom: 0px !important}
 
-    .footer { clear:both; display:block; background: #fEfcfe; padding:10px 0; width:100%; border-top: 1px solid #dae1e7; font-size: 12px; width:100% }
+    .footer { background: #fefefe; clear:both; display:block; padding:10px 0; width:100%; border-top: 1px solid #fafafa; font-size: 12px; width:100% }
     .footer span { margin-left: 10px; }
