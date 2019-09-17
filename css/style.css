@@ -412,3 +412,41 @@ h6.todo-title { margin-top:5px;}
 
     .footer { background: #fefefe; clear:both; display:block; padding:10px 0; width:100%; border-top: 1px solid #fafafa; font-size: 12px; width:100% }
     .footer span { margin-left: 10px; }
+
+
+    .center{
+        position: fixed;
+        top: 50%;
+        right: 0px;
+        height: 0px;
+        text-align:right;
+        z-index:9999;
+          margin-top:-15px;
+      }
+      
+      .center a{
+                      transform: rotate(-90deg);
+                      -webkit-transform: rotate(-90deg); 
+                      -moz-transform: rotate(-90deg); 
+                      -o-transform: rotate(-90deg); 
+                      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+                      display: block; 
+                      background: #06c; 
+                     text-align:center;
+                      height: 60px; 
+                      width: 52px;
+                      padding:10px;
+                      color: #fff;  
+                      margin-right:-5px;
+                  
+                      font-size: 17px; 
+                      font-weight: bold; 
+                      text-decoration: none; 
+              
+              
+      }
+      
+      .center a:hover { 
+                      background: #CCC; 
+                      color: #06c
+                  }
