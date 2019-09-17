@@ -18,7 +18,11 @@
 </head>
 
 <body>
+    <div class="center">
+        <a href='#' onClick="carregarPlesmy()"><i class="fas fa-sync-alt fa-2x"></i></a>
+    </div>
     <div id="wrapper" class="wrapper wrap-layout">
+       
         <div class="wrapper-content">
             <main class="wp-main wrap-layout">
                 <div class="wp-section wrap-layout">
@@ -37,7 +41,7 @@
                                                 <div class="wg-content">
                                                     <div class="wg-form">
                                                         <fieldset>
-                                                            <div class="scrollbar-inner">
+                                                           
                                                                 <a href="#" data-filtro="rotina" data-tipo="cadastro"
                                                                     class="filtro list-group-item list-group-item-action border-0 d-flex align-items-center">
                                                                     <span class="bullet bullet-cadastro mr-1"></span>
@@ -80,7 +84,7 @@
                                                                     <span class="bullet bullet-cliente mr-1"></span>
                                                                     Cliente
                                                                 </a>
-                                                            </div>
+                                                           
                                                         </fieldset>
                                                     </div>
                                                 </div>
@@ -93,7 +97,7 @@
                                                 <div class="wg-content">
                                                     <div class="wg-form">
                                                         <fieldset>
-                                                            <div class="scrollbar-inner">
+                                                         
                                                                 <a href="#"
                                                                     class="list-group-item list-group-item-action border-0 d-flex align-items-center">
                                                                     <span class="bullet bullet-distribuicao mr-1"></span>
@@ -133,8 +137,6 @@
                                                                         class="bullet bullet-primary mr-1"></span>Cadastro</a>
                                                         </fieldset>
                                                     </div>
-
-                                                    </form>
                                                 </div>
                                             </div>
                                         </aside>
